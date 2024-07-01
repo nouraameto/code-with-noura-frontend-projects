@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: #1b1919;
+}
+.container {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recipe-header {
+    text-align: center;
+}
+.recipe-header img {
+    max-width: 100%;
+    border-radius: 4px 7px 16px;
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+}
+.recipe-header h1 {
+    margin: 15px 0;
+    font-family: cursive;
+    font-size: 24px;
+    color: #333;
+}
+.recipe-header p {
+    font-size: 16px;
+    padding: 0 15px;
+    color: #666;
+}
+section {
+    margin: 20px 0;
+}
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #af0c0c;
+}
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+ul li, ol li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+ol li::marker {
+    color: #af0c0c;
+}
+.prepatation {
+    background-color: #ffcdb2;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+.instructions span {
+    font-weight: bold;
+    color: #333;
+}
+.ingredients ul, .nutrition ul {
+    list-style: none; 
+    padding-left: 0;
+}
+.ingredients ul li, .nutrition ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.nutrition ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.nutrition ul li span {
+    font-weight: bold;
+}
